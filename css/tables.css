@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #111;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.logo a {
+  margin: 70px 40px 40px 40px;
+  position: relative;
+  top: 10px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 50px;
+  padding: 10px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 164px;
+  margin-top: 40px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 8px;
+}
+th {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #83cabd;
+}
+input[type="submit"] {
+  width: 18%;
+  background-color: #238672;
+  color: white;
+  padding: 11px 14px;
+  margin: 2px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  color: #238672;
+  background-color: white;
+}
+table td button {
+  background-color: #238672;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  margin-left: 80;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+table td button :hover {
+  background: #238672;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+input[type="text"] {
+  padding: 12px 42px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 0 15px;
+}
+input[type="number"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  margin-left: 80;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+input.submit {
+  background-color: #238672;
+  color: white;
+  padding: 5px 1px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input.submit:hover {
+  color: #238672;
+  background-color: white;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 19px;
+  margin-top: 4%;
+}

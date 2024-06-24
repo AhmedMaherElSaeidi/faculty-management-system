@@ -1,0 +1,150 @@
+*{
+    margin:0 ;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a{
+    color: inherit;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}  
+.logo a{
+    margin: 70px 40px 40px 40px;
+    position: relative;
+    top: 10px;
+}  
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+    padding: 10px;
+    
+}
+
+
+
+.active {
+    background-color: #238672;
+}
+
+
+.section{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+   margin-top: 50px;
+}
+
+.section h1{
+    color: #238672;
+    line-height: 50px;
+}
+
+.section p{
+    color: black;
+}
+
+.btn-1{
+    background-color: #238672;
+    padding: 11px 16px;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+}
+.btn-1:hover{
+    background-color: black
+}
+.button:active {
+    background-color: #238672;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.features{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.features button{
+    padding: 11px 32px;
+    margin-right: 32px;
+    font-size: 19px;
+    background-color: #238672;
+    padding: 11px 16px;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+}
+.features button:hover{
+    background-color: black   
+}
+.features .button:active{
+    background-color: #238672;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+showcase h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#courses{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#courses img{
+    width: 200px;
+    border-radius: 7px;
+    border: 2px solid #000;
+    margin: auto;
+}
+
+.apply{
+    margin-top: 4%;
+    background-color: #238672;
+    padding: 11px 16px;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+}
+.apply:hover{
+    background-color: black
+}
+.apply:active{
+    background-color: #238672;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 19px;
+    margin-top: 4%;
+}

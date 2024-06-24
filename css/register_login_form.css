@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+h1 {
+  margin-top: 100px;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.logo a {
+  margin: 70px 40px 40px 40px;
+  position: relative;
+  top: 10px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 50px;
+  padding: 10px;
+}
+.login-page {
+  width: 360px;
+  padding: 4% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #f2f2f2;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form input {
+  outline: none;
+  border: 1px solid #ccc;
+  background: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form button {
+  background-color: #238672;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 80;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.button :hover {
+  background: #238672;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #238672;
+  font-size: 12px;
+}
+.form .message a {
+  color: black;
+}
+.Register-form {
+  display: none;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 19px;
+  margin-top: 4%;
+}

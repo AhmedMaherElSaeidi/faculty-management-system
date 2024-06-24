@@ -1,0 +1,8 @@
+SELECT assign_courses.id,assign_courses.professor_id,course.name ,
+enrollment.course_id,course.description,professor.firstname,
+professor.lastname,assign_courses.day, assign_courses.start_time,
+assign_courses.Hall FROM 
+(((enrollment JOIN assign_courses ON enrollment.assign_id = assign_courses.id)
+ JOIN course ON course.code = enrollment.course_id) 
+JOIN professor ON professor.username = assign_courses.professor_id)
+WHERE enrollment.student_id = 'sohaila@gmail.com';

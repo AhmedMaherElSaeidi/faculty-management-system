@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif
+}
+a {
+  color: inherit;
+}
+p {
+  color: #000;
+}
+
+h1 {
+  margin-top: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.logo a {
+  margin: 70px 40px 40px 40px;
+  position: relative;
+  top: 10px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 50px;
+  padding: 10px;
+}
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="password"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="date"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="time"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+.btnm[type="submit"] {
+  width: 100%;
+  background-color: #238672;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+.btnm[type="submit"] {
+  background-color: #238672;
+}
+
+.container {
+  /* margin: 40px 40px 130px 400px;*/
+  border-radius: 7px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 33%;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 19px;
+  margin-top: 4%;
+}
